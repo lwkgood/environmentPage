@@ -1,0 +1,18 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    background-size: contain;/*	把图像扩展至最大尺寸，以使其宽度和高度完全适应内容区域。*/
+    background-repeat: repeat-x;
+    background-position: center bottom;/*底部居中*/
+    background-color: #FFD17A;
+}
+
+canvas{
+    display: block;
+}
+
+#leaf{
+    display: none;
+}
